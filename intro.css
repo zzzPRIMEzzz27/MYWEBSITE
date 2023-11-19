@@ -6,8 +6,8 @@
 }
 main{
     width: 100vw;
-    height: 100vh;
-    background-color: rgba(65, 95, 26, 0.795)
+    height: 220vh;
+    background-color: rgb(238, 241, 210)
 }
 nav{
     border: 20px;
@@ -15,12 +15,11 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0.5%;
-    background-color: rgb(78, 9, 9)
+    background-color: rgb(0, 0, 0)
 }
 nav h1{
-    color: yellow;
+    color: rgb(184, 184, 174 );
 }
-
 
 .nav-link ul{
     display: flex;
@@ -28,7 +27,7 @@ nav h1{
 }
 .nav-link li a{
     text-decoration: none;
-    color: yellow;
+    color: rgb(184, 184, 174);
     margin:0 14px;
 }
 .main-page{
@@ -47,10 +46,22 @@ nav h1{
     font-size: 150%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.col-1 h1{
+    color: rgb(0, 0, 0);
+    background-color: #bbbbbb;
+    border-style: groove;
+}
 .col-2 img{
     border-radius: 10px;
     width: 900px;
     height: 750px;
+    border: 10px solid rgb(107, 93, 93);
+    border-style: hidden;
+}
+.col-3 h2{
+    color: rgb(0, 0, 0);
+    margin: 2%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .Hobby {
     display: flex;
@@ -61,11 +72,16 @@ nav h1{
 .col-3 img{
     width: 250px;
     height: 300px;
+    border: 10px solid rgb(6, 6, 14);
+    border-style: outset;
+}
+.col-3 p{
+    color: rgb(0, 0, 0);
 }
 .Hobby svg{
     width: 150px;
-    height: 160px;
-    margin: 6% 50px;
+    height: 170px;
+    margin: 5% 50px;
     cursor: pointer;
 }
 footer{
@@ -73,7 +89,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;  
-    padding: 1%;
+    padding: 0.5%;
 }
 .footerline
 {
@@ -81,4 +97,35 @@ footer{
     height: 3px;
     background-color: black;
 }
+.hobbies {
+    margin: 5% 50px;
+}
+.social-icons a{
+    color: black;
+    transition: color 0.6s;
+}
+.social-icons ion-icon{
+    display: flex;
+    flex-direction: column; 
+    vertical-align: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 250px;
+}
+.social-icons a:hover{
+    color: rgb(4, 140, 252);
+}.social-icons {
+    width: 150px;
+    background-color: #333; 
+    padding: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
